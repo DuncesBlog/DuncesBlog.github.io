@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "DuncesBlog"
-  text: "A VitePress Site"
+  name: "刻舟求剑"
+  text: "DuncesNotes"
   tagline: My great project tagline
   actions:
     - theme: brand

@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "DuncesBlog",
-  description: "A VitePress Site",
+  title: "刻舟求剑",
+  description: "DuncesNotes",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
