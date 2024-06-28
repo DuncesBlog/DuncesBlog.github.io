@@ -5,6 +5,6 @@
   "scripts": {
     "docs:dev": "vitepress dev Notes",
     "docs:build": "vitepress build Notes",
-    "docs:preview": "vitepress preview Notes"
+    "docs:preview": "vitepress preview Notes --port 8090"
   }
 }
