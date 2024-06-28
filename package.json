@@ -7,4 +7,9 @@
     "docs:build": "vitepress build Notes",
     "docs:preview": "vitepress preview Notes"
   }
+  // scripts 运行示例：
+  // 在命令行中运行
+  // npm run docs:dev
+  // 或
+  // npx vitepress dev Notes
 }
