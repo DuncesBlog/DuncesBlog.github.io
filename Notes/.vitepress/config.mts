@@ -13,6 +13,12 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'VitePress',
+        items:[
+          { text: '本地构建vitepress', link: '/build-vitepress' },
+        ]
+      },
+      {
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
