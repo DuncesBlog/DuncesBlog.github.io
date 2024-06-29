@@ -1,6 +1,15 @@
+
+# VitePress
+    VitePress 是一个由 Vite 和 Vue 共同驱动的 SSG（静态站点生成器）。
+
+    如果你像我一样，不太清楚 MPA/SPA/SSR/SSG/...... 等一大坨客户端和服务端渲染方式的魔鬼细节，那我们可以用一句话简单理解 VitePress —— Vue/VueUse/Pinia/Vite/Vitest 等官方文档，都是基于 VitePress 构建的。(此处摘抄自[前端俱乐部](https://juejin.cn/post/7349119662134018063))
+
+    VitePress 的设计动机就是构建快速、内容优先的站点。它可以将 Markdown 编写的一切内容，根据应用的主题生成静态 HTML 页面
+
+
 # 本地构建 VitePress
     参考文档
-        官网：https://vitepress.dev/zh/guide/getting-started
+        官网[Shiki](https://vitepress.dev/zh/guide/getting-started)
 
 
 # 打包网站并部署到Github
