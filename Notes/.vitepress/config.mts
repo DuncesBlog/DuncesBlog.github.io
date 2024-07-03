@@ -9,6 +9,20 @@ var Folder_BlogsToolsList =         "/Blogs_Tools_List"
     var Folder_VitePress =          Folder_BlogsToolsList + "/VitePress"
     var Folder_Memos =              Folder_BlogsToolsList + "/Memos"
 var Folder_Linux =                  "/Linux_About"
+var Folder_Language =               "/开发-语言类"
+    var Folder_CSharp =             Folder_Language + "/CSharp"
+    var Folder_JsAndTs =            Folder_Language + "/Js_Ts"
+    var Folder_Nodejs =             Folder_Language + "/Nodejs"
+    var Folder_MarkDown =           Folder_Language + "/MarkDown"
+var Folder_IDE =                    "/开发-IDE"
+    var Folder_CocosCreator =       Folder_IDE + "/CocosCreator"
+    var Folder_Unity =              Folder_IDE + "/Unity"
+    var Folder_VSCode =             Folder_IDE + "/VSCode"
+    var Folder_VSStudio =           Folder_IDE + "/VSStudio"
+    var Folder_JetBrainsRider =     Folder_IDE + "/JetBrains_Rider"
+    var Folder_IntelliJIDEA =       Folder_IDE + "/IntelliJ_IDEA"
+var Folder_Algorithm =              "/算法"
+    var Folder_LeetCode =           Folder_Algorithm + "/LeetCode"
 var Folder_MyIdeas =                "/My_Ideas"
 var Folder_LifeTips =               "/Life_Tips"
 var Folder_Examples =               "/Examples"
@@ -40,8 +54,7 @@ export default defineConfig({
         ],
 
         sidebar: [
-            {
-                text: '博客构建工具',
+            {   text: '博客构建工具',
                 collapsed: true,
                 items:[
                     { text: '中文独立博客列表', link: 'https://github.com/AomanHao/chinese-independent-blogs' },
@@ -61,12 +74,12 @@ export default defineConfig({
                         ],
                     },
                     { text: '其他博客', link: Folder_BlogsToolsList + '/other_blogs'},
+                    { text: '大佬们的博客', link: Folder_BlogsToolsList + '/大佬们的博客'},
                 ]
             },
 
 
-            {
-                text: "Linux",
+            {   text: "Linux",
                 collapsed: true,
                 items: [
                     { text: 'Ubuntu 系统盘制作', link: Folder_Linux + '/Ubuntu 系统盘制作'},
@@ -81,26 +94,122 @@ export default defineConfig({
             },
 
 
-            {
-                text: '我的小灵光',
+            {   text: "开发-语言类",
                 collapsed: true,
                 items: [
-                    { text: 'TODO', link: Folder_MyIdeas + '/'},
+                    {   text: "C#",
+                        collapsed: true,
+                        items: [
+                            { text: 'TODO', link: Folder_CSharp + '/'},
+                        ],
+                    },
+                    {   text: "Javascript&Typescript",
+                        collapsed: true,
+                        items: [
+                            { text: 'TODO', link: Folder_JsAndTs + '/'},
+                        ],
+                    },
+                    {   text: "Nodejs",
+                        collapsed: true,
+                        items: [
+                            { text: 'TODO', link: Folder_Nodejs + '/'},
+                        ],
+                    },
+                    {   text: "MarkDown",
+                        collapsed: true,
+                        items: [
+                            { text: 'TODO', link: Folder_MarkDown + '/TODO'},
+                        ],
+                    },
                 ],
             },
 
 
-            {
-                text: '生活小技巧',
+            {   text: "开发-IDE",
+                collapsed: true,
+                items: [
+                    {   text: "Cocos Creator",
+                        collapsed: true,
+                        items: [
+                            { text: 'Cocos如何跟Android通信', link: Folder_CocosCreator + '/Cocos如何跟Android通信'},
+                        ],
+                    },
+                    {   text: "Unity",
+                        collapsed: true,
+                        items: [
+                            { text: 'unity 八叉树', link: Folder_Unity + '/unity 八叉树'},
+                        ],
+                    },
+                    {   text: "VSCode",
+                        collapsed: true,
+                        items: [
+                            { text: 'TODO', link: Folder_VSCode + '/'},
+                        ],
+                    },
+                    {   text: "VS Studio",
+                        collapsed: true,
+                        items: [
+                            { text: 'TODO', link: Folder_VSStudio + '/'},
+                        ],
+                    },
+                    {   text: "JetBrains Rider",
+                        collapsed: true,
+                        items: [
+                            { text: 'TODO', link: Folder_JetBrainsRider + '/'},
+                        ],
+                    },
+                    {   text: "IntelliJ IDEA",
+                        collapsed: true,
+                        items: [
+                            { text: 'TODO', link: Folder_IntelliJIDEA + '/'},
+                        ],
+                    },
+                    { text: "其他IDE或框架", link: Folder_IDE + "/其他IDE或框架"}
+                ],
+            },
+
+
+            {   text: '算法',
+                collapsed: true,
+                items: [
+                    { text: '六边形地图', link: Folder_Algorithm + '/六边形地图'},
+                    { text: '洗牌算法', link: Folder_Algorithm + '/洗牌算法'},
+                    {   text: "LeetCode",
+                        collapsed: true,
+                        items: [
+                            { text: 'TODO', link: Folder_LeetCode + '/'},
+                        ],
+                    },
+                    { text: 'TODO', link: Folder_Algorithm + '/'},
+                ],
+            },
+
+
+            {   text: '我的小灵光',
+                collapsed: true,
+                items: [
+                    { text: "对接中国福利彩票的API接口", link: Folder_MyIdeas + "/对接中国福利彩票的API接口"},
+                    {   text: "TODO",
+                        collapsed: true,
+                        items: [
+                            { text: 'TODO', link: Folder_VSCode + '/TODO'},
+                        ],
+                    },
+                    { text: 'TODO', link: Folder_MyIdeas + '/TODO'},
+                ],
+            },
+
+
+            {   text: '生活小技巧',
                 collapsed: true,
                 items: [
                     { text: '快递', link: Folder_LifeTips + '/快递'},
+                    { text: '山水', link: Folder_LifeTips + '/山水'},
                 ],
             },
 
 
-            {
-                text: 'Examples',
+            {   text: 'Examples',
                 collapsed: true,
                 items: [
                     { text: 'Markdown Examples', link: Folder_Examples + '/markdown-examples' },

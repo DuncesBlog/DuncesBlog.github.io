@@ -2,6 +2,7 @@
 # 其他在线博客或博客构建工具
 
 ## wordpress
+    [个人博客网站(Wordpress)基本使用.B站](https://www.bilibili.com/video/BV1uW4y1E7wA)
 
 ## Hexo
 
