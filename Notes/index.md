@@ -5,7 +5,8 @@ layout: home
 hero:
   name: "刻舟求剑"
   text: "DuncesNotes"
-  tagline: My great project tagline
+  # tagline: My great project tagline
+  tagline: 吾生也有涯，而知也无涯。已有涯随无涯，殆已！
   actions:
     - theme: brand
       text: Markdown Examples

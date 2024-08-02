@@ -25,7 +25,9 @@ var Folder_Algorithm =              "/算法"
     var Folder_LeetCode =           Folder_Algorithm + "/LeetCode"
 var Folder_MyIdeas =                "/My_Ideas"
 var Folder_LifeTips =               "/Life_Tips"
+var Folder_Knowledge =              "/夜航船"
 var Folder_Examples =               "/Examples"
+var Folder_Tools =                  "/工具类"
 
 
 //#endregion 文件夹路径
@@ -51,6 +53,7 @@ export default defineConfig({
                     {text: "options-2", link: "http://www.baidu.com"},
                 ],
             },
+            { text: "个人游戏集", link: "https://lyugames-1258920685.cos.ap-beijing.myqcloud.com/index.html"},
         ],
 
         sidebar: [
@@ -100,6 +103,7 @@ export default defineConfig({
                     {   text: "C#",
                         collapsed: true,
                         items: [
+                            { text: '数组', link: Folder_CSharp + '/CSharp数组'},
                             { text: 'TODO', link: Folder_CSharp + '/'},
                         ],
                     },
@@ -112,6 +116,10 @@ export default defineConfig({
                     {   text: "Nodejs",
                         collapsed: true,
                         items: [
+                            { text: 'NodeJs简单介绍', link: Folder_Nodejs + '/NodeJs简单介绍'},
+                            { text: '如何搭建Node项目', link: Folder_Nodejs + '/如何搭建Node项目'},
+                            { text: 'http 和 socketio共用一个地址', link: Folder_Nodejs + '/http和socketio共用一个地址'},
+                            { text: 'websocket同时启用http和https协议', link: Folder_Nodejs + '/websocket同时启用http和https协议'},
                             { text: 'TODO', link: Folder_Nodejs + '/'},
                         ],
                     },
@@ -138,6 +146,7 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                             { text: 'unity 八叉树', link: Folder_Unity + '/unity 八叉树'},
+                            { text: '跳过Unity的启动Logo', link: Folder_Unity + '/跳过Unity的启动Logo'},
                         ],
                     },
                     {   text: "VSCode",
@@ -174,12 +183,24 @@ export default defineConfig({
                 items: [
                     { text: '六边形地图', link: Folder_Algorithm + '/六边形地图'},
                     { text: '洗牌算法', link: Folder_Algorithm + '/洗牌算法'},
+                    { text: '排序算法', link: Folder_Algorithm + '/排序算法'},
+                    { text: '排列组合', link: Folder_Algorithm + '/排列组合'},
                     {   text: "LeetCode",
                         collapsed: true,
                         items: [
+                            { text: '752.打开转盘锁 [中等] [广搜]', link: Folder_LeetCode + '/752_打开转盘锁'},
+                            { text: '2959.关闭分部的可行集合数目 [困难] [最短路]', link: Folder_LeetCode + '/2959_关闭分部的可行集合数目'},
                             { text: 'TODO', link: Folder_LeetCode + '/'},
                         ],
                     },
+                    { text: 'TODO', link: Folder_Algorithm + '/'},
+                ],
+            },
+
+            {   text: "工具类",
+                collapsed: true,
+                items: [
+                    { text: '在线工具收藏', link: Folder_Tools + '/在线工具收藏'},
                     { text: 'TODO', link: Folder_Algorithm + '/'},
                 ],
             },
@@ -204,7 +225,18 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                     { text: '快递', link: Folder_LifeTips + '/快递'},
-                    { text: '山水', link: Folder_LifeTips + '/山水'},
+                    { text: '清洁小妙招', link: Folder_LifeTips + '/清洁小妙招'},
+                    { text: '支付宝', link: Folder_LifeTips + '/支付宝'},
+                ],
+            },
+
+
+            {   text: '夜航船',
+                collapsed: true,
+                items: [
+                    { text: '山水', link: Folder_Knowledge + '/山水'},
+                    { text: '老祖宗的名言', link: Folder_Knowledge + '/老祖宗的名言'},
+                    { text: '5201314', link: Folder_Knowledge + '/5201314'},
                 ],
             },
 
