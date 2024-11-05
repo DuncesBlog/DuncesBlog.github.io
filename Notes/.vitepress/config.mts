@@ -201,7 +201,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                     { text: '在线工具收藏', link: Folder_Tools + '/在线工具收藏'},
-                    { text: 'TODO', link: Folder_Algorithm + '/'},
+                    { text: 'SourceTree', link: Folder_Tools + '/SourceTree'},
+                    { text: 'TODO', link: Folder_Tools + '/'},
                 ],
             },
 
