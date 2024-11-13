@@ -6,6 +6,9 @@
 
     VitePress 的设计动机就是构建快速、内容优先的站点。它可以将 Markdown 编写的一切内容，根据应用的主题生成静态 HTML 页面
 
+# 安装准备
+    Node.js 18以上
+
 
 # 本地构建 VitePress
     参考文档

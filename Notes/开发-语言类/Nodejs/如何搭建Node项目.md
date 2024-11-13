@@ -12,8 +12,8 @@
     打开文件管理器，在你想要的索引位置上新建一个文件夹，文件夹的名称即是项目名
 
 ## 2.初始化包管理配置文件
-    打开 DOS / 终端 ，执行 npm 进行项目配置文件的创建（注意，在项目的当前文件夹）
-``` DOS
+    打开 DOS / 终端 ，执行 npm 进行项目的包管理配置文件package.json的创建（注意，在项目的当前文件夹）.
+``` DOS/Terminal
 npm init -y
 ```
     将会在项目目录下创建一个 package.json 文件,其中author，指的是开发者名称，而 main，指的是初始化时指定的主文件入口
@@ -30,7 +30,7 @@ npm init -y
     以express框架为例,express 框架是 node.js 官方推荐的框架
 
     安装：在当前的项目根目录中打开 DOS / 终端，之后执行以下命令：
-``` DOS
+``` DOS/Terminal
 npm install express -save
 ```
     -save ：自动将模块和版本号添加到 dependencies 部分
@@ -41,6 +41,6 @@ npm install express -save
 
 ## 6.启动
     在项目根目录中打开 DOS / 终端，执行 node app.js 
-``` DOS
+``` DOS/Terminal
 node app.js
 ```
