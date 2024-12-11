@@ -2,6 +2,9 @@ import { defineConfig } from 'vitepress'
 
 //#region 文件夹路径
 
+
+// 组件路径名称
+var FolderQA = "/Q&A"   // (Question and Answer)
 // 零级
 var Folder_Root = ""
 // 一级
@@ -28,6 +31,8 @@ var Folder_LifeTips =               "/Life_Tips"
 var Folder_Knowledge =              "/夜航船"
 var Folder_Examples =               "/Examples"
 var Folder_Tools =                  "/工具类"
+var Folder_Hardware =               "/电子硬件"
+var Folder_Windows =                "/Windows_About"
 
 
 //#endregion 文件夹路径
@@ -92,6 +97,8 @@ export default defineConfig({
                     { text: 'Ubuntu Docker安装SakuraFrp', link: Folder_Linux + '/Ubuntu Docker安装SakuraFrp'},
                     { text: 'Ubuntu 安装向日葵', link: Folder_Linux + '/Ubuntu 安装向日葵'},
                     { text: 'Ubuntu 设置笔记本合盖不休眠', link: Folder_Linux + '/Ubuntu 设置笔记本合盖不休眠'},
+                    { text: '远程控制台上传下载文件', link: Folder_Linux + '/远程控制台上传下载文件'},
+                    { text: 'wget-一条命令下载整个网站', link: Folder_Linux + '/一条命令下载整个网站'},
                     { text: '收藏的网页', link: Folder_Linux + '/favorite'},
                 ],
             },
@@ -116,6 +123,14 @@ export default defineConfig({
                     {   text: "Nodejs",
                         collapsed: true,
                         items: [
+                            {
+                                text: "Q&A",
+                                collapsed: true,
+                                items: [
+                                    { text: 'npm install 无法安装包的问题', link: Folder_Nodejs + FolderQA + '/npm install 无法安装包的问题'},
+                                    { text: 'TODO', link: Folder_Nodejs + FolderQA + '/'},
+                                ]
+                            },
                             { text: 'NodeJs简单介绍', link: Folder_Nodejs + '/NodeJs简单介绍'},
                             { text: '查询和切换npm的下包镜像源', link: Folder_Nodejs + '/查询和切换npm的下包镜像源'},
                             { text: '如何搭建Node项目', link: Folder_Nodejs + '/如何搭建Node项目'},
@@ -124,6 +139,7 @@ export default defineConfig({
                             { text: '开发属于自己的包', link: Folder_Nodejs + '/开发属于自己的包'},
                             { text: 'http 和 socketio共用一个地址', link: Folder_Nodejs + '/http和socketio共用一个地址'},
                             { text: 'websocket同时启用http和https协议', link: Folder_Nodejs + '/websocket同时启用http和https协议'},
+                            { text: 'Node下载BT种子和磁力链接', link: Folder_Nodejs + '/Node下载BT种子和磁力链接'},
                             { text: 'TODO', link: Folder_Nodejs + '/'},
                             { text: 'NPM包大赏', link: Folder_Nodejs + '/NPM包大赏'},
                         ],
@@ -207,9 +223,31 @@ export default defineConfig({
                 items: [
                     { text: '在线工具收藏', link: Folder_Tools + '/在线工具收藏'},
                     { text: 'SourceTree', link: Folder_Tools + '/SourceTree'},
+                    { text: '下面是超链接类', link: Folder_Tools + '/在线工具收藏'},
+                    { text: 'Node下载BT种子和磁力链接', link: Folder_Nodejs + '/Node下载BT种子和磁力链接'},
+                    { text: 'wget-一条命令下载整个网站', link: Folder_Linux + '/一条命令下载整个网站'},
                     { text: 'TODO', link: Folder_Tools + '/'},
                 ],
             },
+
+            {   text: "Windows",
+                collapsed: true,
+                items: [
+                    { text: '电脑休眠自动重启的解决办法', link: Folder_Windows + '/电脑休眠自动重启的解决办法'},
+                    { text: 'win11添加开机自启动', link: Folder_Windows + '/win11添加开机自启动'},
+                    { text: 'CMD和命令提示符', link: Folder_Windows + '/CMD和命令提示符'},
+                    { text: 'TODO', link: Folder_Windows + '/'},
+                ],
+            },
+
+            {   text: "电子硬件",
+                collapsed: true,
+                items: [
+                    { text: '台式机主板规格', link: Folder_Hardware + '/台式机主板规格'},
+                    { text: 'TODO', link: Folder_Hardware + '/'},
+                ],
+            },
+
 
 
             {   text: '我的小灵光',

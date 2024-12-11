@@ -45,7 +45,7 @@
 		-d ——detach后台静默安装
 		-p ——publish 打开
 		
-	查看当前正在运行的容器列表,找到使用该容器的ID (CONTAINER ID)
+	查看当前正在运行的容器列表,找到使用该容器的ID (CONTAINER ID)	!!!是容器！不是image
 	$ sudo docker ps
 		-a 查看所有容器
 		-q 仅查看容器ID

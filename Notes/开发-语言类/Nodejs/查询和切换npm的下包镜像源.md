@@ -13,6 +13,6 @@ npm config get registry
 
 # 切换镜像源
 ``` Terminal
-npm config set registry=https://registry.npm.taobao.org/
+npm config set registry https://registry.npm.taobao.org/
 ```
 注意：切换之后要再次查询镜像源是否切换正确
