@@ -236,6 +236,7 @@ export default defineConfig({
                     { text: '电脑休眠自动重启的解决办法', link: Folder_Windows + '/电脑休眠自动重启的解决办法'},
                     { text: 'win11添加开机自启动', link: Folder_Windows + '/win11添加开机自启动'},
                     { text: 'CMD和命令提示符', link: Folder_Windows + '/CMD和命令提示符'},
+                    { text: 'PowerShell和管理员运行的PowerShell', link: Folder_Windows + '/PowerShell'},
                     { text: 'TODO', link: Folder_Windows + '/'},
                 ],
             },
@@ -278,6 +279,7 @@ export default defineConfig({
             {   text: '夜航船',
                 collapsed: true,
                 items: [
+                    { text: '视频清晰度分级规则', link: Folder_Knowledge + '/视频清晰度分级规则'},
                     { text: '山水', link: Folder_Knowledge + '/山水'},
                     { text: '老祖宗的名言', link: Folder_Knowledge + '/老祖宗的名言'},
                     { text: '5201314', link: Folder_Knowledge + '/5201314'},
