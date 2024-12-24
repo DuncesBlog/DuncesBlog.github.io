@@ -14,7 +14,8 @@ var Folder_BlogsToolsList =         "/Blogs_Tools_List"
 var Folder_Linux =                  "/Linux_About"
 var Folder_Language =               "/开发-语言类"
     var Folder_CSharp =             Folder_Language + "/CSharp"
-    var Folder_JsAndTs =            Folder_Language + "/Js_Ts"
+    var Folder_Js =                 Folder_Language + "/JavaScript"
+    var Folder_Ts =                 Folder_Language + "/TypeScript"
     var Folder_Nodejs =             Folder_Language + "/Nodejs"
     var Folder_MarkDown =           Folder_Language + "/MarkDown"
 var Folder_IDE =                    "/开发-IDE"
@@ -24,8 +25,10 @@ var Folder_IDE =                    "/开发-IDE"
     var Folder_VSStudio =           Folder_IDE + "/VSStudio"
     var Folder_JetBrainsRider =     Folder_IDE + "/JetBrains_Rider"
     var Folder_IntelliJIDEA =       Folder_IDE + "/IntelliJ_IDEA"
+    var Folder_MySQL =              Folder_IDE + "/MySQL"
 var Folder_Algorithm =              "/算法"
     var Folder_LeetCode =           Folder_Algorithm + "/LeetCode"
+    var Folder_MiniFunc =           Folder_Algorithm + "/算法小功能合集"
 var Folder_MyIdeas =                "/My_Ideas"
 var Folder_LifeTips =               "/Life_Tips"
 var Folder_Knowledge =              "/夜航船"
@@ -93,6 +96,7 @@ export default defineConfig({
                     { text: 'Ubuntu 系统盘制作', link: Folder_Linux + '/Ubuntu 系统盘制作'},
                     { text: 'Ubuntu 命令', link: Folder_Linux + '/Ubuntu 命令'},
                     { text: 'Ubuntu 安装SSH', link: Folder_Linux + '/Ubuntu 安装SSH'},
+                    { text: 'Ubuntu 安装MySQL', link: Folder_MySQL + '/Ubuntu 安装MySQL'},
                     { text: 'Ubuntu 安装Docker', link: Folder_Linux + '/Ubuntu 安装Docker'},
                     { text: 'Ubuntu Docker安装SakuraFrp', link: Folder_Linux + '/Ubuntu Docker安装SakuraFrp'},
                     { text: 'Ubuntu 安装向日葵', link: Folder_Linux + '/Ubuntu 安装向日葵'},
@@ -114,10 +118,16 @@ export default defineConfig({
                             { text: 'TODO', link: Folder_CSharp + '/'},
                         ],
                     },
-                    {   text: "Javascript&Typescript",
+                    {   text: "Javascript",
                         collapsed: true,
                         items: [
-                            { text: 'TODO', link: Folder_JsAndTs + '/'},
+                            { text: 'TODO', link: Folder_Js + '/'},
+                        ],
+                    },
+                    {   text: "Typescript",
+                        collapsed: true,
+                        items: [
+                            { text: 'TODO', link: Folder_Ts + '/'},
                         ],
                     },
                     {   text: "Nodejs",
@@ -194,6 +204,24 @@ export default defineConfig({
                             { text: 'TODO', link: Folder_IntelliJIDEA + '/'},
                         ],
                     },
+                    {   text: "MySQL",
+                        collapsed: true,
+                        items: [
+                            {
+                                text: "Q&A",
+                                collapsed: true,
+                                items: [
+                                    { text: 'Navicat远程连接数据库 出现 1130', link: Folder_MySQL + FolderQA + '/Navicat远程连接数据库出现1130'},
+                                    { text: 'TODO', link: Folder_MySQL + FolderQA + '/'},
+                                ]
+                            },
+                            { text: 'Ubuntu 安装MySQL', link: Folder_MySQL + '/Ubuntu 安装MySQL'},
+                            { text: 'MySQL指令集', link: Folder_MySQL + '/MySQL指令集'},
+                            { text: 'MySQL令其他电脑IP访问', link: Folder_MySQL + '/MySQL令其他电脑IP访问'},
+                            { text: 'MySQL开发规范', link: Folder_MySQL + '/MySQL开发规范'},
+                            { text: 'MySQL生产环境部署机器配置选择', link: Folder_MySQL + '/MySQL生产环境部署机器配置选择'},
+                        ],
+                    },
                     { text: "其他IDE或框架", link: Folder_IDE + "/其他IDE或框架"}
                 ],
             },
@@ -202,6 +230,14 @@ export default defineConfig({
             {   text: '算法',
                 collapsed: true,
                 items: [
+                    {   text: "算法小功能合集",
+                        collapsed: true,
+                        items: [
+                            { text: '前、后置补位', link: Folder_MiniFunc + '/前And后置补位'},
+                            { text: 'TODO', link: Folder_MiniFunc + '/'},
+                        ],
+                    },
+                    { text: '小功能合集', link: Folder_Algorithm + '/'},
                     { text: '六边形地图', link: Folder_Algorithm + '/六边形地图'},
                     { text: '洗牌算法', link: Folder_Algorithm + '/洗牌算法'},
                     { text: '排序算法', link: Folder_Algorithm + '/排序算法'},
@@ -279,7 +315,9 @@ export default defineConfig({
             {   text: '夜航船',
                 collapsed: true,
                 items: [
+                    { text: '端口分级以及常用端口记录', link: Folder_Knowledge + '/端口分级以及常用端口记录'},
                     { text: '视频清晰度分级规则', link: Folder_Knowledge + '/视频清晰度分级规则'},
+                    { text: '糖的种类和区别', link: Folder_Knowledge + '/糖的种类和区别'},
                     { text: '山水', link: Folder_Knowledge + '/山水'},
                     { text: '老祖宗的名言', link: Folder_Knowledge + '/老祖宗的名言'},
                     { text: '5201314', link: Folder_Knowledge + '/5201314'},
