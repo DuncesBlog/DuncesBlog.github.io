@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,a4 as _}from"./chunks/framework.iMXuyU9c.js";const u=JSON.parse('{"title":"老祖宗的名言","description":"","frontmatter":{},"headers":[],"relativePath":"夜航船/老祖宗的名言.md","filePath":"夜航船/老祖宗的名言.md"}'),i={name:"夜航船/老祖宗的名言.md"},o=_("",3),l=[o];function r(s,n,c,p,d,h){return t(),e("div",null,l)}const f=a(i,[["render",r]]);export{u as __pageData,f as default};

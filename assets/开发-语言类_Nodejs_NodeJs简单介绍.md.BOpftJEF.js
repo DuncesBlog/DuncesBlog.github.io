@@ -1,0 +1,5 @@
+import{_ as t,c as s,o as a,j as e,a as o}from"./chunks/framework.iMXuyU9c.js";const g=JSON.parse('{"title":"NodeJs简单介绍","description":"","frontmatter":{},"headers":[],"relativePath":"开发-语言类/Nodejs/NodeJs简单介绍.md","filePath":"开发-语言类/Nodejs/NodeJs简单介绍.md"}'),r={name:"开发-语言类/Nodejs/NodeJs简单介绍.md"},n=e("h1",{id:"nodejs简单介绍",tabindex:"-1"},[o("NodeJs简单介绍 "),e("a",{class:"header-anchor",href:"#nodejs简单介绍","aria-label":'Permalink to "NodeJs简单介绍"'},"​")],-1),d=e("pre",null,[e("code",null,`该文创建于 2024/07/10
+`)],-1),l=e("p",null,[e("a",{href:"https://nodejs.org/zh-cn",target:"_blank",rel:"noreferrer"},"官网"),e("a",{href:"https://www.runoob.com/nodejs/nodejs-tutorial.html",target:"_blank",rel:"noreferrer"},"菜鸟教程")],-1),c=e("p",null,[e("strong",null,"简单介绍"),o(" 简单的说 Node.js 就是运行在服务端的 JavaScript。")],-1),_=e("pre",null,[e("code",null,`Node.js 是一个基于 Chrome JavaScript 运行时建立的一个平台。
+
+Node.js 是一个事件驱动 I/O 服务端 JavaScript 环境，基于 Google 的 V8 引擎，V8 引擎执行 Javascript 的速度非常快，性能非常好。
+`)],-1),i=[n,d,l,c,_];function h(p,N,u,f,m,j){return a(),s("div",null,i)}const v=t(r,[["render",h]]);export{g as __pageData,v as default};

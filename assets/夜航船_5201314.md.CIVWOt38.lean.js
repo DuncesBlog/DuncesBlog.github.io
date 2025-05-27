@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as r,a4 as t}from"./chunks/framework.iMXuyU9c.js";const b=JSON.parse('{"title":"5201314","description":"","frontmatter":{},"headers":[],"relativePath":"夜航船/5201314.md","filePath":"夜航船/5201314.md"}'),o={name:"夜航船/5201314.md"},i=t("",18),l=[i];function n(h,d,_,c,s,p){return r(),e("div",null,l)}const f=a(o,[["render",n]]);export{b as __pageData,f as default};

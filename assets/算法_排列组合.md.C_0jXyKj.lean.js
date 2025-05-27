@@ -1,0 +1,1 @@
+import{_ as a,c as n,o as e,a4 as t}from"./chunks/framework.iMXuyU9c.js";const _=JSON.parse('{"title":"排列组合","description":"","frontmatter":{},"headers":[],"relativePath":"算法/排列组合.md","filePath":"算法/排列组合.md"}'),r={name:"算法/排列组合.md"},o=t("",11),c=[o];function m(s,l,d,i,g,p){return e(),n("div",null,c)}const h=a(r,[["render",m]]);export{_ as __pageData,h as default};

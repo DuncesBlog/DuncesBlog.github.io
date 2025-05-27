@@ -1,0 +1,3 @@
+import{_ as t,c as a,o as s,j as e,a as o}from"./chunks/framework.iMXuyU9c.js";const N=JSON.parse('{"title":"开发属于自己的包","description":"","frontmatter":{},"headers":[],"relativePath":"开发-语言类/Nodejs/开发属于自己的包.md","filePath":"开发-语言类/Nodejs/开发属于自己的包.md"}'),n={name:"开发-语言类/Nodejs/开发属于自己的包.md"},r=e("h1",{id:"开发属于自己的包",tabindex:"-1"},[o("开发属于自己的包 "),e("a",{class:"header-anchor",href:"#开发属于自己的包","aria-label":'Permalink to "开发属于自己的包"'},"​")],-1),c=e("pre",null,[e("code",null,`该文创建于 2024/11/13
+文章参考 [摩登开发者Oliver.CSDN](https://blog.csdn.net/qq1114565087/article/details/128640951)
+`)],-1),_=[r,c];function d(l,i,p,h,m,f){return s(),a("div",null,_)}const x=t(n,[["render",d]]);export{N as __pageData,x as default};

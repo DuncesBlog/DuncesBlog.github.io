@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,a4 as o}from"./chunks/framework.iMXuyU9c.js";const T=JSON.parse('{"title":"Template模板","description":"","frontmatter":{},"headers":[],"relativePath":"Template.md","filePath":"Template.md"}'),r={name:"Template.md"},l=o("",5),n=[l];function s(p,_,c,m,d,h){return t(),a("div",null,n)}const f=e(r,[["render",s]]);export{T as __pageData,f as default};
