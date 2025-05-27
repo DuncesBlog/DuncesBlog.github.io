@@ -121,6 +121,7 @@ export default defineConfig({
                     {   text: "Javascript",
                         collapsed: true,
                         items: [
+                            { text: '数组', link: Folder_Js + '/数组'},
                             { text: 'TODO', link: Folder_Js + '/'},
                         ],
                     },
